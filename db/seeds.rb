@@ -22,7 +22,7 @@ puts "Creating reviews..."
 # * and a review belongs to an user.                              *
 # *****************************************************************
 # Create Reviews Here
-50.times do 
+15.times do 
     user_ids = User.all.map {|user| user.id}
     product_ids = Product.all.map {|product| product.id}
 
